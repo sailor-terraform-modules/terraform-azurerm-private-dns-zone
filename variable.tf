@@ -5,7 +5,7 @@ variable "resource_group_name" {
 variable "soa_record" {
   description = "The name of the Private DNS Zone"
   type        = bool
-  default = false
+  default     = false
 }
 variable "name" {
   description = "The name of the Private DNS Zone"
